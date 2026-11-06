@@ -206,9 +206,9 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`idusuario`, `idPrivilegio`, `correo`, `usuario`, `contrasena`, `fecha_registro`, `nombre`, `apellido`, `biografia`, `foto`) VALUES
-(1, 2, 'luisangelruiz2005@gmail.com', 'Luis', '$2y$10$RrgxyOA8H77KogMwOstH9eKf5PWuWagBDFEnHNHojtoq2uss5/i..', '2025-05-15 19:43:04', 'Jose', NULL, 'Ingenieria', '682643c8a130c.jpg'),
-(12, 2, 'karoln@gmail.com', 'Karol', '$2y$10$ur8SwCx0dHScuup7z3kKk.MFAMvKSbcM5NChft69xtES8JsciIgmW', '2025-05-12 21:37:07', 'Karol Naizzir', NULL, 'soy una coya', '68226a032406e.jpg'),
-(13, 2, 'joseangelruizrivas@gmail.com', 'Jose Angel', '$2y$10$CWxxY/V542lk24kJzNWiFun5DZqFn5lUFgLjkRFM69q9dfSZqOc8y', '2025-05-15 16:14:33', 'Jose Angel', NULL, 'Estudiante', '682612e99dce3.jpg');
+(1, 2, 'luisangelruiz2005@gmail.com', 'Luis', 'hash_de_ejemplo', '2025-05-15 19:43:04', 'Jose', NULL, 'Ingenieria', '682643c8a130c.jpg'),
+(12, 2, 'karoln@gmail.com', 'Karol', 'hash_de_ejemplo', '2025-05-12 21:37:07', 'Karol Naizzir', NULL, 'soy una coya', '68226a032406e.jpg'),
+(13, 2, 'joseangelruizrivas@gmail.com', 'Jose Angel', 'hash_de_ejemplo', '2025-05-15 16:14:33', 'Jose Angel', NULL, 'Estudiante', '682612e99dce3.jpg');
 
 --
 -- Índices para tablas volcadas
